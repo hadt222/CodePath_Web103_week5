@@ -1,3 +1,11 @@
+# WEB103 Project 4 - _Gaming PC Builder_
+
+Submitted by: **Thai Ha Dang**
+
+About this web app: **App description here**
+
+Time spent: **6** hours
+
 # Gaming PC Builder
 
 A full-stack Web103 customization app where users create, preview, save, edit, and delete custom gaming PC builds. The app updates the total price live, changes the PC preview visually as options change, and blocks invalid part combinations before they can be saved.
@@ -87,15 +95,13 @@ Add a screenshot here that shows your Render Postgres dashboard is running.
 
 Suggested filename:
 
-```txt
-client/public/render-dashboard-proof.png
-```
+## Video Walkthrough
 
-Then embed it here after you capture it:
+Here's a walkthrough of implemented required features:
 
-```md
-![Render Postgres Dashboard](./client/public/render-dashboard-proof.png)
-```
+<img src='record.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+````
 
 ### 2. Table Contents via `psql`
 
@@ -103,7 +109,7 @@ Command used:
 
 ```bash
 psql "$DATABASE_URL" -c "SELECT * FROM custom_pc_builds;"
-```
+````
 
 Example output from the current Render database:
 
