@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS custom_pc_builds (
+    id SERIAL PRIMARY KEY,
+    build_name VARCHAR(100) NOT NULL,
+    case_color VARCHAR(50) NOT NULL,
+    cpu VARCHAR(100) NOT NULL,
+    gpu VARCHAR(100) NOT NULL,
+    ram VARCHAR(50) NOT NULL,
+    storage VARCHAR(50) NOT NULL,
+    cooling VARCHAR(50) NOT NULL,
+    rgb BOOLEAN NOT NULL DEFAULT false,
+    total_price INTEGER NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
